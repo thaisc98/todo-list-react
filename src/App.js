@@ -65,7 +65,7 @@ class App extends Component {
       <div className="container">
         <div className="row">
           <div className="col-10 max-auto col-md-8 mt-4">
-            <h3 className="text-capitalize text-center">todo-Input</h3>
+            <h3 className="text-capitalize text-center">To-do List</h3>
             <TodoInput
               item={this.state.item}
               handleChange={this.handleChange}
