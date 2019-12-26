@@ -20,7 +20,7 @@ export default class TodoInput extends Component {
             </div>
             <input
               type="text"
-              className="form-control "
+              className="form-control"
               placeholder="Add to-do item"
               value={item}
               onChange={handleChange}
